@@ -6,6 +6,7 @@ import {AuthLoginComponent} from './views/auth/components';
 const routes: Routes = [
   // odkomentować gdy dodasz komponent offers
   // { path: '', redirectTo: AppRouterUrls.DEFAULT, pathMatch: 'full' },
+  // { path: AppRoutes.QUESTIONS, component: QuestionsComponent },
   {
     path: AppRoutes.AUTH,
     children: [

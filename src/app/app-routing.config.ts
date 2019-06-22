@@ -7,14 +7,17 @@ export const AppRoutes = {
   DEFAULT: 'offers',
   AUTH: 'auth',
   LOGIN: 'login',
+  QUESTIONS: 'questions'
 };
 
 export const AppRouterLinks = {
   DEFAULT: [AppRoutes.DEFAULT],
-  LOGIN: [AppRoutes.AUTH, AppRoutes.LOGIN]
+  LOGIN: [AppRoutes.AUTH, AppRoutes.LOGIN],
+  QUESTIONS: [AppRoutes.QUESTIONS]
 };
 
 export const AppRouterUrls = {
   DEFAULT: `/${AppRoutes.DEFAULT}`,
   LOGIN: `/${AppRoutes.AUTH}/${AppRoutes.LOGIN}`,
+  QUESTIONS: `/${AppRoutes.QUESTIONS}`
 };
